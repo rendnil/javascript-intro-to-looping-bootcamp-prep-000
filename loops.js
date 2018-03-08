@@ -41,7 +41,7 @@ function doWhileLoop(array) {
 do{
   array.shift();
   maybetrue();
-}while array.length> 0 && maybeTrue();
+}while (array.length> 0 && maybeTrue());
 
   return array
 
