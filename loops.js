@@ -39,8 +39,8 @@ function doWhileLoop(array) {
 }
 
 do{
-  remove;
-  
+  array.shift();
+  maybetrue();
 }while array.length> 0 && maybeTrue();
 
 return array
